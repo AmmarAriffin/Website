@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+{{ range .Pages }}
+
+<div class="post-border">
+    {{ partial "post-section.html" . }}
+</div>
+{{ end  }}
+{{ end }}

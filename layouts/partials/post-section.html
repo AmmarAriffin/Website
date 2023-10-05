@@ -1,0 +1,14 @@
+<div>
+    <h2 class="visible-links" style="color:#3b9cba">    
+        <a href="{{ .Permalink }}">
+        {{ .Title }}
+        </a>
+    </h2>
+    <p class="post-date">Posted on {{ .Date | time.Format ":date_medium" }} </p>
+    <div class="visible-links">
+        <a style="font-weight:800" href="{{ .Permalink }}">
+            [Read more]
+        </a>
+    </div>
+
+</div>

@@ -1,0 +1,3 @@
+{{ $sassOptions := (dict "outputStyle" "compressed") }}
+{{ $scssResource := resources.Get "scss/test.scss" | resources.ToCSS $sassOptions }}
+<link rel="stylesheet" href="{{ $scssResource.RelPermalink }}">

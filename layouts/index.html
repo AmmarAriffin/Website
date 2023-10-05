@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <h1>Welcome to My Website</h1>
+  <p>This is the home page.</p>
+  
+
+  <!-- List recent posts -->
+  <h2>Recent Posts</h2>
+  <div> 
+    {{ range first 5 (where .Site.Pages "Type" "post") }}
+      {{ if not .IsSection }}
+        <ul>
+          {{ partial "post-section.html" . }}
+        </ul>
+      {{ end}}
+    {{ end }}
+  </div>
+    
+{{ end }}
