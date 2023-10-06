@@ -29,11 +29,11 @@ Small mistakes made during assembling such as forgotting to put a certain screw 
 
 ### 3. Easier To Train New People
 {{< myimage scale="100" id="ammar" src="After_Prep_Drawing.png" caption='testing' >}}
-
 ## Some Terms to Know
 
-{% include image.html name='Example_SOP.svg' cap="Example Flowchart of SOP" class='imgright' size=30 id='ExampleSOP' %}
+{{< myimage src="Example_SOP.svg" scale="100" id="ExampleSOP" caption="Example Flowchart of SOP" style="transform: scale(0.1)" > }}
 
+<img> 
 
 * SOP (Standard Operating Procedures)
   * Broad

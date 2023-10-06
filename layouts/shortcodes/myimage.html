@@ -1,9 +1,14 @@
 {{ $image := resources.Get (printf "images/%s" (.Get "src")) }}
-{{ $scaleFactor := float (.Get "scale") }}
-{{ $width := mul $scaleFactor (div (int $image.Width) 100.0) }}
-{{ $resized := $image.Resize (print (int $width) "x q100") }}
+{{ $resized := $image }}
+{{ if eq $image.MediaType.SubType "svg" }}
+{{ else }}
+    {{ $scaleFactor := float (.Get "scale") }}
+    {{ $width := mul $scaleFactor (div (int $image.Width) 100.0) }}
+    {{ $resized := $image.Resize (print (int $width) "x q100") }}
+{{ end }}
+
 
 <figure class="image-container">
-    <img src="{{ $resized.RelPermalink }}" id="{{ .Get "id" }}">
+    <img src="{{ $resized.RelPermalink }}" id="{{ .Get "id" }}" style="{{ .Get "style" }}">
     <figcaption class="caption"> {{ .Get "caption" }} </figcaption>
 </figure>
