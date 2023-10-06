@@ -63,7 +63,6 @@ Having more words might actually delay assembling time longer since it requires 
 {% include image.html name='FirstThingYouReadIsPicture.png' cap='Example of confusing instruction DO NOT DO LIKE THIS' class='imgright' size=30 id='ExampleBadPic' %}
 
 Looking at [](#ExampleBadPic), there are several problems with it. 
-
 First, there are too many words. Imagine not looking at the photo at all. The first sentence, would already make you so confused. Where is the hole? What is cord grip? What does it look like? What is a power cord? What does it look like? How do you fit it in the first place?. These are the questions that I would ask if I start assembling this product for the first time. Heck, even If I made it before and coming back to it later, I would still might have to ask these questions. 
 
 Second, the image. Its a bit crowded to my liking. Eventhough, it solves a lot of problems with just putting on sentences, cramping too much info might cause a loss of detail that assemblers might miss on. 
@@ -82,42 +81,47 @@ Therefore, having a total of 3 separate pictures has clear processes in steps. Y
 
 ### 2. Good Point of View (POV)
 
-{% include image.html name='GENERAL_POV2.jpg' cap='Back View' class='imgright' size=20 id='back_view_chassis' %}
+{{< myimage src="GENERAL_POV2.jpg" scale="100" id="back_view_chassis"  caption='Back View' >}}
 
-{% include image.html name='GENERAL_POV1.jpg' cap='Front View' class='imgright' size=20 id='front_view_chassis' %}
+{{< myimage src="GENERAL_POV1.jpg" scale="100" id="front_view_chassis"  caption='Front View' >}}
 
-The picture point of view should always be into what the assemblers point of view. Its a good way for them to compare the picture (which would be the ideal assembly) and their own assembly. In this case, [](#front_view_chassis) has the point of view as the assembler.
+The picture point of view should always be into what the assemblers point of view. Its a good way for them to compare the picture (which would be the ideal assembly) and their own assembly. In this case, [The Front View](#front_view_chassis) has the point of view as the assembler.
 
 Different point of view such as [](#back_view_chassis) would have the assembler image in their mind how the product should be like or rotated based on the image. Its a subtle difference but could avoid any confusion on the matter.
 
 <div class='clear-right'></div>
 
-{% include image.html name='POV_NOTCLEAR.jpg' cap='A different POV' class='imgright' size=20 id='pov1' %}
-{% include image.html name='Picture3.jpg' cap='Another detailed POV' class='imgright' size=20 id='pov2' %}
+{{< myimage src="POV_NOTCLEAR.jpg" scale="100" id="pov1"  caption='A different POV' >}}
+
+{{< myimage src="Picture3.jpg" scale="100" id="pov2"  caption='Another detailed POV' >}}
 
 
-[](#pov1) is acceptable in terms of assemblers POV since they would be looking back and forth between the front and back side of panel as shown. But the image itself might not be clear anymore to be referred to. For example, if you are trying to describe in which side the switch (if it has an asymmetric shape) to put onto the chassis, you might have a problem its not clear enough!.
+[POV 1](#pov1) is acceptable in terms of assemblers POV since they would be looking back and forth between the front and back side of panel as shown. But the image itself might not be clear anymore to be referred to. For example, if you are trying to describe in which side the switch (if it has an asymmetric shape) to put onto the chassis, you might have a problem its not clear enough!.
 
-Lets look at [](#pov2), rather than a POV from the side like [](#pov1). A POV from the top would be pretty ideal since this is basically the assemblers POV the whole time. They are looking from top to bottom. You can clearly see the shape of the switch now at its proper position. This solves the problem in [](#pov1). However, there is another problem lurking which is the connection of the two brown cables to the switch is not visible. 
+Lets look at [POV 2](#pov2), rather than a POV from the side like [POV 1](#pov1). A POV from the top would be pretty ideal since this is basically the assemblers POV the whole time. They are looking from top to bottom. You can clearly see the shape of the switch now at its proper position. This solves the problem in [POV 1](#pov1). However, there is another problem lurking which is the connection of the two brown cables to the switch is not visible. 
 
 
 <div class='clear-right'></div>
-{% include image.html name='POV.jpg' cap='Another POV' class='imgright' size=25 id='pov3' %}
 
-To fix the problem from [](#pov2) and [](#pov1), a more closer picture can be shown that shows the connections of the switch as shown in [](#pov3). The photo is taken in a way that an assembler can still have a POV similar to the picture but also close enough to show details in this step of the assembly procedure.
+{{< myimage src="POV.jpg" scale="100" id="pov3"  caption='Another POV' >}}
+
+To fix the problem from [POV](#pov2) and [](#pov1), a more closer picture can be shown that shows the connections of the switch as shown in [](#pov3). The photo is taken in a way that an assembler can still have a POV similar to the picture but also close enough to show details in this step of the assembly procedure.
 
 
 ### 3. Summary Photo
 
-{% include image.html name='Quick_Batch_Making_Page.png' cap='A summarized photo of sub-assembly' class='imgright' size=30 id='SummaryPhoto' %}
+
+{{< myimage src="Quick_Batch_Making_Page.png" scale="100" id="SummaryPhoto"  caption='A summarized photo of sub-assembly' >}}
 
 For complete assemblies such as the ones you have to make from start to finish product, making a sub-assembly in batches is more efficient in terms of assembly performance. When making batches, its important to not make miss any assembly steps in making the sub assembly, since this can potentially cause having to disassemble the whole batch again just to fit the missed step. This is a big time waster and reworking is always a time waster. With this in mind, after making a step-by-step assembly procedure of a certain sub-assembly, having a summary photo and a sub-assembly end result would be really good in preventing this problem as shown in [](#SummaryPhoto).
 
 <div class='clear-right'></div>
 
-{% include image.html name='Separate_Prep_AND_FINAL.png' cap='BatchMaking' class='imgright' size=20 id='batchMoffat' %}
 
-{% include image.html name='After_Prep_Drawing.png' cap='Snapshot Wiring Diagram for full assembled product' class='imgright' size=20 id='drawingMoffat' %}
+{{< myimage src="Separate_Prep_AND_FINAL.png" scale="100" id="batchMoffat"  caption='BatchMaking' >}}
+
+{{< myimage src="After_Prep_Drawing.png" scale="100" id="drawingMoffat"  caption='Snapshot Wiring Diagram for full assembled product' >}}
+
 
 For much simpler batch making as in [](#batchMoffat), the simpler one page approach would actually be significantly more helpful than step-by-step procedures for each pictures. This would prepare the assembler for each part of the component before reaching the final assembly to compile all components together into a single completed product. 
 
