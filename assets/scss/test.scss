@@ -1,21 +1,31 @@
+@font-face {
+	font-family: "Literal";
+	src: url(assets/fonts/Literal-Regular.woff);
+	font-weight: normal;
+	font-style: normal;
+}
+
 $color_1: white;
 $color_2: #fff;
 $color_3: inherit;
 $color_4: #3b9cba;
 $color_5: #808080;
 $color_6: #000;
-$font-family_1: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$font-family_1: "Literal", sans-serif;
 $font-family_2: "Brush Script MT";
 $font-family_3: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
 $background-color_1: #fff;
 $background-color_2: transparent;
 $background-color_3: #000;
 
+
 body {
 	color: white;
 	background-color: #000;
-	font-size: px;
+	font-size: 22px;
+	font-family: $font-family_1;
 }
+
 
 footer {
 	background-image: url('/images/background.gif');
@@ -190,10 +200,8 @@ a.site-title {
 }
 h2 {
 	font-weight: 400;
-	color: $color_4;
 	padding-bottom: 0.5em;
 	border-bottom: 1px solid #f2f3f3;
-	color: $color_6;
 }
 .post-date {
 	color: $color_5;
@@ -259,15 +267,24 @@ a {
 .image-container {
 	display: block;
 	text-align: center;
+	max-width: 100%;
+	height: auto;
+
 }
 
 .caption {
 	text-align: center;
+	color:#808080;
 	scroll-margin-top: 600px;
+	font-style: italic;
 }
   
 .post-content {
-	max-width: 30rem;
+	max-width: 36rem;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 22px;
+	a {
+		color: magenta;
+	}
 }

@@ -28,10 +28,10 @@ Having a good JI atleast can guide people to the correct assembly. The problem i
 Small mistakes made during assembling such as forgotting to put a certain screw on a bracket before installing another bracket that completely prevents the other forgotten bracket to be installed can consume a lot of the labour time especially after you have gone deep into the procedure and have to dissasemble back to just install the bracket you forgot earlier. **These mistakes could really be big time waster especially if your making big batches of units at once and forgot to install it for all of the units**.
 
 ### 3. Easier To Train New People
-{{< myimage scale="100" id="ammar" src="After_Prep_Drawing.png" caption='testing' >}}
 ## Some Terms to Know
 
-{{< myimage src="Example_SOP.svg" scale="100" id="ExampleSOP" caption="Example Flowchart of SOP" style="transform: scale(0.1)" > }}
+{{< myimage scale="50" id="ExampleSOP" src="Example_SOP.png" caption="Example Flowchart of SOP" >}}
+
 
 <img> 
 
@@ -40,7 +40,7 @@ Small mistakes made during assembling such as forgotting to put a certain screw 
   * Include multiple departments. 
     * For example, Sales and Engineering or Electrical Assembly and Mechanical Assembly
   * Provide general steps for a company to reach a certain goal
-    * For example, process flow shown in [](#ExampleSOP)
+    * For example, process flow shown in [the flow diagram above](#ExampleSOP)
 * Assembly / Manufacturing Job Instructions (JI)
   * Specific
   * For the assemblers themself
@@ -60,9 +60,9 @@ The things I noticed is that **nobody**, even me reads words when assembling a p
 
 Having more words might actually delay assembling time longer since it requires a lot more time to read words of a sentence than glance on a picture.
 
-{% include image.html name='FirstThingYouReadIsPicture.png' cap='Example of confusing instruction DO NOT DO LIKE THIS' class='imgright' size=30 id='ExampleBadPic' %}
+{{< myimage src="FirstThingYouReadIsPicture.png" scale="50" id="ExampleBadPic" caption="Example of confusing instruction DO NOT DO LIKE THIS" >}}
 
-Looking at [](#ExampleBadPic), there are several problems with it. 
+Looking at [above](#ExampleBadPic), there are several problems with it. 
 First, there are too many words. Imagine not looking at the photo at all. The first sentence, would already make you so confused. Where is the hole? What is cord grip? What does it look like? What is a power cord? What does it look like? How do you fit it in the first place?. These are the questions that I would ask if I start assembling this product for the first time. Heck, even If I made it before and coming back to it later, I would still might have to ask these questions. 
 
 Second, the image. Its a bit crowded to my liking. Eventhough, it solves a lot of problems with just putting on sentences, cramping too much info might cause a loss of detail that assemblers might miss on. 
@@ -81,19 +81,19 @@ Therefore, having a total of 3 separate pictures has clear processes in steps. Y
 
 ### 2. Good Point of View (POV)
 
-{{< myimage src="GENERAL_POV2.jpg" scale="100" id="back_view_chassis"  caption='Back View' >}}
+{{< myimage scale="100" id="ammar" src="After_Prep_Drawing.png" caption='testing' >}}
 
-{{< myimage src="GENERAL_POV1.jpg" scale="100" id="front_view_chassis"  caption='Front View' >}}
+{{< myimage src="GENERAL_POV2.jpg" scale="10" id="back_view_chassis"  caption="Back View" >}}
 
-The picture point of view should always be into what the assemblers point of view. Its a good way for them to compare the picture (which would be the ideal assembly) and their own assembly. In this case, [The Front View](#front_view_chassis) has the point of view as the assembler.
+{{< myimage src="GENERAL_POV1.jpg" scale="10" id="front_view_chassis"  caption="Front View" >}}
 
-Different point of view such as [](#back_view_chassis) would have the assembler image in their mind how the product should be like or rotated based on the image. Its a subtle difference but could avoid any confusion on the matter.
+The picture point of view should always be into what the assemblers point of view. Its a good way for them to compare the picture (which would be the ideal assembly) and their own assembly. In this case, [front view](#front_view_chassis) has the point of view as the assembler.
 
-<div class='clear-right'></div>
+Different point of view such as [the back view](#back_view_chassis) would have the assembler image in their mind how the product should be like or rotated based on the image. Its a subtle difference but could avoid any confusion on the matter.
 
-{{< myimage src="POV_NOTCLEAR.jpg" scale="100" id="pov1"  caption='A different POV' >}}
+{{< myimage src="POV_NOTCLEAR.jpg" scale="10" id="pov1"  caption="A different POV" >}}
 
-{{< myimage src="Picture3.jpg" scale="100" id="pov2"  caption='Another detailed POV' >}}
+{{< myimage src="Picture3.jpg" scale="50" id="pov2"  caption="Another detailed POV" >}}
 
 
 [POV 1](#pov1) is acceptable in terms of assemblers POV since they would be looking back and forth between the front and back side of panel as shown. But the image itself might not be clear anymore to be referred to. For example, if you are trying to describe in which side the switch (if it has an asymmetric shape) to put onto the chassis, you might have a problem its not clear enough!.
@@ -101,31 +101,28 @@ Different point of view such as [](#back_view_chassis) would have the assembler 
 Lets look at [POV 2](#pov2), rather than a POV from the side like [POV 1](#pov1). A POV from the top would be pretty ideal since this is basically the assemblers POV the whole time. They are looking from top to bottom. You can clearly see the shape of the switch now at its proper position. This solves the problem in [POV 1](#pov1). However, there is another problem lurking which is the connection of the two brown cables to the switch is not visible. 
 
 
-<div class='clear-right'></div>
+{{< myimage src="POV.jpg" scale="10" id="pov3"  caption="Another POV" >}}
 
-{{< myimage src="POV.jpg" scale="100" id="pov3"  caption='Another POV' >}}
-
-To fix the problem from [POV](#pov2) and [](#pov1), a more closer picture can be shown that shows the connections of the switch as shown in [](#pov3). The photo is taken in a way that an assembler can still have a POV similar to the picture but also close enough to show details in this step of the assembly procedure.
+To fix the problem from both POV, a more closer picture can be shown that shows the connections of the switch as shown [above](#pov3). The photo is taken in a way that an assembler can still have a POV similar to the picture but also close enough to show details in this step of the assembly procedure.
 
 
 ### 3. Summary Photo
 
 
-{{< myimage src="Quick_Batch_Making_Page.png" scale="100" id="SummaryPhoto"  caption='A summarized photo of sub-assembly' >}}
+{{< myimage src="Quick_Batch_Making_Page.png" scale="50" id="SummaryPhoto"  caption="A summarized photo of sub-assembly" >}}
 
-For complete assemblies such as the ones you have to make from start to finish product, making a sub-assembly in batches is more efficient in terms of assembly performance. When making batches, its important to not make miss any assembly steps in making the sub assembly, since this can potentially cause having to disassemble the whole batch again just to fit the missed step. This is a big time waster and reworking is always a time waster. With this in mind, after making a step-by-step assembly procedure of a certain sub-assembly, having a summary photo and a sub-assembly end result would be really good in preventing this problem as shown in [](#SummaryPhoto).
-
-<div class='clear-right'></div>
+For complete assemblies such as the ones you have to make from start to finish product, making a sub-assembly in batches is more efficient in terms of assembly performance. When making batches, its important to not make miss any assembly steps in making the sub assembly, since this can potentially cause having to disassemble the whole batch again just to fit the missed step. This is a big time waster and reworking is always a time waster. With this in mind, after making a step-by-step assembly procedure of a certain sub-assembly, having a summary photo and a sub-assembly end result would be really good in preventing this problem as shown in [the summarized photo above](#SummaryPhoto).
 
 
-{{< myimage src="Separate_Prep_AND_FINAL.png" scale="100" id="batchMoffat"  caption='BatchMaking' >}}
 
-{{< myimage src="After_Prep_Drawing.png" scale="100" id="drawingMoffat"  caption='Snapshot Wiring Diagram for full assembled product' >}}
+{{< myimage src="Separate_Prep_AND_FINAL.png" scale="50" id="batchMoffat"  caption="BatchMaking" >}}
+
+{{< myimage src="After_Prep_Drawing.png" scale="70" id="drawingMoffat"  caption="Snapshot Wiring Diagram for full assembled product" >}}
 
 
-For much simpler batch making as in [](#batchMoffat), the simpler one page approach would actually be significantly more helpful than step-by-step procedures for each pictures. This would prepare the assembler for each part of the component before reaching the final assembly to compile all components together into a single completed product. 
+For much simpler batch making as in [batchmaking](#batchMoffat), the simpler one page approach would actually be significantly more helpful than step-by-step procedures for each pictures. This would prepare the assembler for each part of the component before reaching the final assembly to compile all components together into a single completed product. 
 
-This way, its clearer to know the most efficient assembly style compared to just looking at a wiring diagram as in [](#drawingMoffat). 
+This way, its clearer to know the most efficient assembly style compared to just looking at a [wiring diagram](#drawingMoffat). 
 
 ## From the Sources
 
@@ -160,7 +157,3 @@ A short video that I think emphasize more on assembling line assembly procedure.
   * Since step-by-step instructions are often long (in terms of number of pages) since there is a diagram for each step. I internalise the meaning as in concise instructions.
 * Write in active voice 
   * I always wondered why does it have to be active voice but my speculation is that the language of active voice such as *"Place the book on the table"* compared to a passive voice *"The book is placed on the table"* has less words to describe the same action and compels somebody to take action of the sentence.
-
-
-
-and then testing if id works [GotoImage](#ammar)
