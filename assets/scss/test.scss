@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "Literal";
-	src: url(assets/fonts/Literal-Regular.woff);
+	src: url('../assets/fonts/Literal-Regular.woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -28,7 +28,7 @@ body {
 
 
 footer {
-	background-image: url('/images/background.gif');
+	background-image: url('../images/background.gif');
     background-size: cover;
 }
 
