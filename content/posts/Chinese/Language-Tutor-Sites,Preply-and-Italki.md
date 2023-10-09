@@ -1,5 +1,5 @@
 ---
-title: 'Business Model of Preply'
+title: "Business Model of Preply And Why I won\'t Use Preply Anymore"
 date: 2023-10-07T15:59:03+13:00
 draft: false
 ---

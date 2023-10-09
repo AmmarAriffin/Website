@@ -1,17 +1,17 @@
 {{ define "main" }}
-  <p>Hi, I'm Ammar. I study Electrical & Electronics Engineering but studying only one thing sounds pretty boring to me so ever so often I delve to different stuff and this is the place for me to express it all out</p>
-  
+  <div class="generic_content-layout">
+    <p>Hi, I'm Ammar. I study Electrical & Electronics Engineering but studying only one thing sounds pretty boring to me so ever so often I delve to different stuff and write stuff here.</p>
 
-  <!-- List recent posts -->
-  <h2>Recent Posts</h2>
-  <div> 
-    {{ range first 5 (where .Site.Pages "Type" "post") }}
-      {{ if not .IsSection }}
-        <ul>
-          {{ partial "post-section.html" . }}
-        </ul>
-      {{ end}}
-    {{ end }}
+    <!-- List recent posts -->
+    <h2 style="position: relative; z-index: 1;" >Recent Posts</h2>
+    <div> 
+      {{ range first 5 (where .Site.Pages "Type" "post") }}
+        {{ if not .IsSection }}
+          <ul>
+            {{ partial "post-section.html" . }}
+          </ul>
+        {{ end}}
+      {{ end }}
+    </div>
   </div>
-    
 {{ end }}

@@ -1,0 +1,36 @@
+
+
+$caption_color: grey;
+$date_color: grey;
+
+
+.post-content {
+	max-width: 36rem;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 22px;
+	a {
+		color: magenta;
+	}
+}
+
+.post-date {
+	color: $date_color;
+	font-size: 18px;
+	font-style: italic;
+	margin: 0 0 10px;
+}
+
+.image-container {
+	display: block;
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+}
+
+.caption {
+	text-align: center;
+	color: $caption_color;
+	scroll-margin-top: 600px;
+	font-style: italic;
+}
