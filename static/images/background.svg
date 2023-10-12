@@ -26,23 +26,27 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.42404096"
-     inkscape:cx="15.328708"
+     inkscape:cx="-97.867904"
      inkscape:cy="568.34132"
      inkscape:window-width="1280"
      inkscape:window-height="742"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer2" />
   <defs
      id="defs2">
     <linearGradient
        inkscape:collect="always"
        id="linearGradient333">
       <stop
-         style="stop-color:#000080;stop-opacity:1"
+         style="stop-color:#800080;stop-opacity:1"
          offset="0"
          id="stop329" />
+      <stop
+         style="stop-color:#1f001f;stop-opacity:1;"
+         offset="0.27215037"
+         id="stop425" />
       <stop
          style="stop-color:#000000;stop-opacity:1"
          offset="1"

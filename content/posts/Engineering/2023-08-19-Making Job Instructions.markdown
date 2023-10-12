@@ -3,7 +3,7 @@ title: Making Job Instructions for Assembling
 date: 2023-08-19    
 ---
 
-When I was making ***Job Instructions (JI)*** for assembling, it feels like sometimes there are pieces of things that I felt needed to be inputted into it.
+When I was making ***Job Instructions (JI)*** for assembling, it feels like sometimes there are pieces of things that I felt needed to be inputted into it. 
 
 But first ...
 
@@ -80,8 +80,6 @@ My way in fixing this is by:
 Therefore, having a total of 3 separate pictures has clear processes in steps. You can also use the same photo but crop out to center the part that you want to emphasize in. 
 
 ### 2. Good Point of View (POV)
-
-{{< myimage scale="100" id="ammar" src="After_Prep_Drawing.png" caption='testing' >}}
 
 {{< myimage src="GENERAL_POV2.jpg" scale="10" id="back_view_chassis"  caption="Back View" >}}
 
