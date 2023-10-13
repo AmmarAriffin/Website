@@ -1,8 +1,9 @@
 
+@import "generic";
 
 $caption_color: grey;
 $date_color: grey;
-
+$linky_color: magenta;
 
 .post-content {
 	max-width: 36rem;
@@ -10,7 +11,10 @@ $date_color: grey;
 	margin-right: auto;
 	font-size: 22px;
 	a {
-		color: magenta;
+		@extend a;
+		color: $linky_color;
+		font-style: italic;
+		font-weight:bold;
 	}
 }
 
