@@ -4,6 +4,6 @@
 {{ $resized := $image.Resize (print (int $width) "x q100") }}
 
 <figure class="image-container" style="width: {{ $width }}; height: auto;">
-    <img src="{{ $resized.RelPermalink }}" id="{{ .Get "id" }}" style="{{ .Get "style" }}">
-    <figcaption class="caption"> {{ .Get "caption" }} </figcaption>
+    <img src="{{ $resized.RelPermalink }}"  style="{{ .Get "style" }}">
+    <figcaption class="caption" id="{{ .Get "id" }}" > {{ .Get "caption" }} </figcaption>
 </figure>
